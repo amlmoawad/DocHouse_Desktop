@@ -132,7 +132,7 @@ namespace home1
                 checkBox = "Female";
             }
             choice = comboBox1.SelectedItem.ToString();
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-TJV0TVJ\\SQLEXPRESS;Initial Catalog=DocHouse;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
             con.Open();
             SqlCommand cmd = new SqlCommand("insert into register values('" + fname.Text + "','" + lname.Text + "','" + email.Text + "','" + pass.Text + "','" + phone.Text + "','" + checkBox + "','" + (int)(age.Value) + "','" + choice + "','" + answerBox.Text + "')", con);
             int i = cmd.ExecuteNonQuery();
@@ -148,9 +148,9 @@ namespace home1
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            //home1 frm = new home1();
-            //frm.Show();
-            //this.Hide();
+            home1 frm = new home1();
+            frm.Show();
+            this.Hide();
         }
     }
 }

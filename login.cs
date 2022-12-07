@@ -18,7 +18,7 @@ namespace home1
             InitializeComponent();
         }
         string choice;
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-TJV0TVJ\\SQLEXPRESS;Initial Catalog=DocHouse;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
         private void login_Load(object sender, EventArgs e)
         {
             comboBox1.Text = "Choose your role";
@@ -110,7 +110,7 @@ namespace home1
                 }
                 else
                 {
-                    MessageBox.Show("Wrond data");
+                    MessageBox.Show("Wrong data");
                     login frm = new login();
                     frm.Show();
                     this.Hide();
@@ -135,7 +135,7 @@ namespace home1
                 }
                 else
                 {
-                    MessageBox.Show("Wrond data");
+                    MessageBox.Show("Wrong data");
                     login frm = new login();
                     frm.Show();
                     this.Hide();
@@ -159,7 +159,7 @@ namespace home1
                 }
                 else
                 {
-                    MessageBox.Show("Wrond data");
+                    MessageBox.Show("Wrong data");
                     login frm = new login();
                     frm.Show();
                     this.Hide();
