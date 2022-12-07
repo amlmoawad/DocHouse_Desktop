@@ -64,6 +64,24 @@
     <Compile Include="book.Designer.cs">
       <DependentUpon>book.cs</DependentUpon>
     </Compile>
+    <Compile Include="Chatting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chatting.Designer.cs">
+      <DependentUpon>Chatting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="contactUsscs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contactUsscs.Designer.cs">
+      <DependentUpon>contactUsscs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorReport.Designer.cs">
+      <DependentUpon>DoctorReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Examination Reservation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +131,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="book.resx">
       <DependentUpon>book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chatting.resx">
+      <DependentUpon>Chatting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contactUsscs.resx">
+      <DependentUpon>contactUsscs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorReport.resx">
+      <DependentUpon>DoctorReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Examination Reservation.resx">
       <DependentUpon>Examination Reservation.cs</DependentUpon>
