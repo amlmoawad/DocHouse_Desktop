@@ -1,0 +1,30 @@
+C:\Users\user\source\repos\home1\bin\Debug\home1.exe.config
+C:\Users\user\source\repos\home1\bin\Debug\home1.exe
+C:\Users\user\source\repos\home1\bin\Debug\home1.pdb
+C:\Users\user\source\repos\home1\obj\Debug\home1.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\home1\obj\Debug\home1.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\home1\obj\Debug\home1.Properties.Resources.resources
+C:\Users\user\source\repos\home1\obj\Debug\home1.csproj.GenerateResource.cache
+C:\Users\user\source\repos\home1\obj\Debug\home1.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\home1\obj\Debug\home1.exe
+C:\Users\user\source\repos\home1\obj\Debug\home1.pdb
+C:\Users\user\source\repos\home1\obj\Debug\home1.home1.resources
+C:\Users\user\source\repos\home1\obj\Debug\home1.join.resources
+C:\Users\user\source\repos\home1\obj\Debug\home1.book.resources
+C:\Users\user\source\repos\home1\obj\Debug\home1.home.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\bin\Debug\home1.exe.config
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\bin\Debug\home1.exe
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\bin\Debug\home1.pdb
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.csproj.AssemblyReference.cache
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.csproj.SuggestedBindingRedirects.cache
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.book.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.home.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.home1.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.join.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.Properties.Resources.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.csproj.GenerateResource.cache
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.csproj.CoreCompileInputs.cache
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.exe
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.pdb
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.Book_Medicine.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.Examination_Reservation.resources
