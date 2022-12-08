@@ -31,3 +31,6 @@ D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\ob
 D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.forget.resources
 D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.login.resources
 D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.register.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.Chatting.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.contactUsscs.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.DoctorReport.resources

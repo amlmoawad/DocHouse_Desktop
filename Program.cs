@@ -16,7 +16,7 @@ namespace home1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new register());
+            Application.Run(new Chatting());
         }
     }
 }
