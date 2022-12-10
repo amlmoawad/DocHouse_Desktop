@@ -48,6 +48,59 @@ namespace home1
 
         private void button7_Click_1(object sender, EventArgs e)
         {
+
+            if (string.IsNullOrEmpty(textBox1.Text.Trim()))
+            {
+                errorProvider1.SetError(textBox1, "First name is required");
+                return;
+            }
+            else
+                errorProvider1.Clear();
+
+            if (string.IsNullOrEmpty(textBox2.Text.Trim()))
+            {
+                errorProvider2.SetError(textBox2, "Last name is required");
+                return;
+            }
+            else
+                errorProvider2.Clear();
+
+            if (string.IsNullOrEmpty(textBox3.Text.Trim()))
+            {
+                errorProvider3.SetError(textBox3, "Email is required");
+                return;
+            }
+            else
+                errorProvider3.Clear();
+
+            if (string.IsNullOrEmpty(textBox4.Text.Trim()))
+            {
+                errorProvider4.SetError(textBox4, "phone is required");
+                return;
+            }
+            else
+                errorProvider4.Clear();
+
+            if (string.IsNullOrEmpty(textBox5.Text.Trim()))
+            {
+                errorProvider5.SetError(textBox5, "City is required");
+                return;
+            }
+            else
+                errorProvider5.Clear();
+
+            if (string.IsNullOrEmpty(richTextBox1.Text.Trim()))
+            {
+                errorProvider6.SetError(richTextBox1, "medicine is required");
+                return;
+            }
+            else
+                errorProvider6.Clear();
+
+
+
+
+
             LabName = comboBox2.Text;
             SqlConnection con1 = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
             con1.Open();

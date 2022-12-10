@@ -34,3 +34,16 @@ D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\ob
 D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.Chatting.resources
 D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.contactUsscs.resources
 D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.DoctorReport.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\bin\Debug\MaterialSkin.dll
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\bin\Debug\TestStack.BDDfy.dll
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\bin\Debug\ComponentFactory.Krypton.Docking.pdb
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\bin\Debug\ComponentFactory.Krypton.Workspace.pdb
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.Admin.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.doctor.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.Lab.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.Patient.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.pharmacist.resources
+D:\Faculty\Third Level\1st semester\Visual Programming\DocHouse\DocHouse-main\obj\Debug\home1.csproj.CopyComplete
