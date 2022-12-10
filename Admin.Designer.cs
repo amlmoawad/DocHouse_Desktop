@@ -50,11 +50,10 @@ namespace home1
             // ShowDoctor
             // 
             this.ShowDoctor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ShowDoctor.Location = new System.Drawing.Point(360, 586);
-            this.ShowDoctor.Margin = new System.Windows.Forms.Padding(4);
+            this.ShowDoctor.Location = new System.Drawing.Point(12, 443);
             this.ShowDoctor.Name = "ShowDoctor";
             this.ShowDoctor.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.ShowDoctor.Size = new System.Drawing.Size(169, 53);
+            this.ShowDoctor.Size = new System.Drawing.Size(145, 43);
             this.ShowDoctor.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(89)))), ((int)(((byte)(234)))));
             this.ShowDoctor.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(89)))), ((int)(((byte)(234)))));
             this.ShowDoctor.StateCommon.Border.Color1 = System.Drawing.Color.Black;
@@ -72,9 +71,9 @@ namespace home1
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(553, 318);
+            this.label1.Location = new System.Drawing.Point(470, 225);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 38);
+            this.label1.Size = new System.Drawing.Size(106, 31);
             this.label1.TabIndex = 60;
             this.label1.Text = "Doctors";
             // 
@@ -82,23 +81,21 @@ namespace home1
             // 
             this.joinus.BackgroundColor = System.Drawing.Color.White;
             this.joinus.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.joinus.Location = new System.Drawing.Point(30, 358);
+            this.joinus.Location = new System.Drawing.Point(12, 258);
             this.joinus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.joinus.Name = "joinus";
             this.joinus.RowHeadersWidth = 51;
             this.joinus.RowTemplate.Height = 24;
-            this.joinus.Size = new System.Drawing.Size(500, 222);
+            this.joinus.Size = new System.Drawing.Size(396, 180);
             this.joinus.TabIndex = 59;
             this.joinus.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellContentClick);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Image = global::home1.Properties.Resources.icon1;
             this.pictureBox1.Location = new System.Drawing.Point(-2, 1);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(86, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(100, 36);
             this.pictureBox1.TabIndex = 58;
             this.pictureBox1.TabStop = false;
             // 
@@ -108,20 +105,19 @@ namespace home1
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label19.Location = new System.Drawing.Point(24, 68);
+            this.label19.Location = new System.Drawing.Point(20, 31);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(222, 38);
+            this.label19.Size = new System.Drawing.Size(178, 31);
             this.label19.TabIndex = 57;
             this.label19.Text = "Appointments";
             // 
             // showAppointment
             // 
             this.showAppointment.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.showAppointment.Location = new System.Drawing.Point(862, 295);
-            this.showAppointment.Margin = new System.Windows.Forms.Padding(4);
+            this.showAppointment.Location = new System.Drawing.Point(721, 168);
             this.showAppointment.Name = "showAppointment";
             this.showAppointment.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.showAppointment.Size = new System.Drawing.Size(169, 53);
+            this.showAppointment.Size = new System.Drawing.Size(105, 43);
             this.showAppointment.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(89)))), ((int)(((byte)(234)))));
             this.showAppointment.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(89)))), ((int)(((byte)(234)))));
             this.showAppointment.StateCommon.Border.Color1 = System.Drawing.Color.Black;
@@ -130,19 +126,19 @@ namespace home1
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.showAppointment.StateCommon.Border.Rounding = 20;
             this.showAppointment.TabIndex = 56;
-            this.showAppointment.Values.Text = "Show apponitments";
+            this.showAppointment.Values.Text = "Apponitments";
             this.showAppointment.Click += new System.EventHandler(this.kryptonButton1_Click);
             // 
             // DataAppointment
             // 
             this.DataAppointment.BackgroundColor = System.Drawing.Color.White;
             this.DataAppointment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataAppointment.Location = new System.Drawing.Point(30, 108);
+            this.DataAppointment.Location = new System.Drawing.Point(12, 64);
             this.DataAppointment.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.DataAppointment.Name = "DataAppointment";
             this.DataAppointment.RowHeadersWidth = 51;
             this.DataAppointment.RowTemplate.Height = 24;
-            this.DataAppointment.Size = new System.Drawing.Size(1001, 181);
+            this.DataAppointment.Size = new System.Drawing.Size(703, 147);
             this.DataAppointment.TabIndex = 55;
             this.DataAppointment.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -150,11 +146,12 @@ namespace home1
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(1004, 1);
+            this.label10.Location = new System.Drawing.Point(882, 9);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(107, 32);
+            this.label10.Size = new System.Drawing.Size(85, 25);
             this.label10.TabIndex = 54;
             this.label10.Text = "Log out";
             this.label10.Click += new System.EventHandler(this.label10_Click);
@@ -162,11 +159,10 @@ namespace home1
             // kryptonButton1
             // 
             this.kryptonButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.kryptonButton1.Location = new System.Drawing.Point(862, 586);
-            this.kryptonButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.kryptonButton1.Location = new System.Drawing.Point(730, 443);
             this.kryptonButton1.Name = "kryptonButton1";
             this.kryptonButton1.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.kryptonButton1.Size = new System.Drawing.Size(169, 53);
+            this.kryptonButton1.Size = new System.Drawing.Size(145, 43);
             this.kryptonButton1.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(89)))), ((int)(((byte)(234)))));
             this.kryptonButton1.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(89)))), ((int)(((byte)(234)))));
             this.kryptonButton1.StateCommon.Border.Color1 = System.Drawing.Color.Black;
@@ -184,9 +180,9 @@ namespace home1
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(24, 318);
+            this.label2.Location = new System.Drawing.Point(21, 225);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(390, 38);
+            this.label2.Size = new System.Drawing.Size(317, 31);
             this.label2.TabIndex = 63;
             this.label2.Text = "Doctors Who want to join";
             // 
@@ -194,21 +190,21 @@ namespace home1
             // 
             this.doctors.BackgroundColor = System.Drawing.Color.White;
             this.doctors.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.doctors.Location = new System.Drawing.Point(545, 358);
+            this.doctors.Location = new System.Drawing.Point(458, 258);
             this.doctors.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.doctors.Name = "doctors";
             this.doctors.RowHeadersWidth = 51;
             this.doctors.RowTemplate.Height = 24;
-            this.doctors.Size = new System.Drawing.Size(486, 222);
+            this.doctors.Size = new System.Drawing.Size(394, 180);
             this.doctors.TabIndex = 62;
             // 
             // Admin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::home1.Properties.Resources.back2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1131, 665);
+            this.ClientSize = new System.Drawing.Size(969, 488);
             this.Controls.Add(this.kryptonButton1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.doctors);
@@ -220,8 +216,9 @@ namespace home1
             this.Controls.Add(this.showAppointment);
             this.Controls.Add(this.DataAppointment);
             this.Controls.Add(this.label10);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Admin";
-            this.Text = "   ";
+            this.Text = "Admin";
             ((System.ComponentModel.ISupportInitialize)(this.joinus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataAppointment)).EndInit();

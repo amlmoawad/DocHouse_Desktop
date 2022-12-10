@@ -13,7 +13,7 @@ namespace home1
 {
     public partial class Lab : Form
     {
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
         string query = "";
         public Lab()
         {
@@ -22,6 +22,7 @@ namespace home1
 
         private void label10_Click(object sender, EventArgs e)
         {
+            login.id = null;
             home1 frm = new home1();
             frm.Show();
             this.Hide();
@@ -41,8 +42,9 @@ namespace home1
         private void kryptonButton1_Click(object sender, EventArgs e)
         {
             con.Open();
-            query = "select * report";
+            query = "select * from lab_reservation where lab_id=@lid";
             SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@lid", login.id);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);

@@ -14,7 +14,7 @@ namespace home1
     public partial class Admin : Form
     {
 
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
         string query = "";
         public Admin()
         {
@@ -24,7 +24,7 @@ namespace home1
         private void kryptonButton3_Click(object sender, EventArgs e)
         {
             con.Open();
-            query = "select * joinus";
+            query = "select * from joinus";
             SqlCommand cmd = new SqlCommand(query, con);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
@@ -36,7 +36,7 @@ namespace home1
         private void kryptonButton1_Click(object sender, EventArgs e)
         {
             con.Open();
-            query = "select * appointment";
+            query = "select * from appointment";
             SqlCommand cmd = new SqlCommand(query, con);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
@@ -65,7 +65,7 @@ namespace home1
         private void kryptonButton1_Click_1(object sender, EventArgs e)
         {
             con.Open();
-            query = "select * doctors";
+            query = "select * from doctors";
             SqlCommand cmd = new SqlCommand(query, con);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();

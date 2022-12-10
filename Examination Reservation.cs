@@ -30,7 +30,7 @@ namespace home1
             comboBox1.Items.Add("Gharbia");
             comboBox1.Items.Add("Cairo");
 
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
             con.Open();
             SqlCommand cmd = new SqlCommand("select lab_name from lab_scientist", con);
             SqlDataAdapter adapt = new SqlDataAdapter(cmd);
@@ -102,7 +102,7 @@ namespace home1
 
 
             LabName = comboBox2.Text;
-            SqlConnection con1 = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+            SqlConnection con1 = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
             con1.Open();
             SqlCommand cmd1 = new SqlCommand("select s_id from lab_scientist where lab_name=@LabName", con1);
             cmd1.Parameters.AddWithValue("@LabName", LabName);
@@ -113,7 +113,7 @@ namespace home1
             comboBox4.DisplayMember = "s_id";
             con1.Close();
 
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
             con.Open();
             SqlCommand cmd = new SqlCommand("insert into lab_reservation values(@f,@l,@e,@p,@g,@c,@pn,@re,@li)", con);
             cmd.Parameters.AddWithValue("@f", textBox1.Text);

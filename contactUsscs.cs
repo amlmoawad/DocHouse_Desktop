@@ -41,7 +41,7 @@ namespace home1
         {
             if (txtbName.Text != "" && textBEmail.Text != "" && textBoxPhone.Text != "" && textBoxMessage.Text != "")
             {
-                SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+                SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
                 con.Open();
                 SqlCommand cmd = new SqlCommand("insert info(pat_name,pat_email,pat_phone,pat_message) values(@pat_name,@pat_email,@pat_phone,@pat_message)", con);
                 cmd.Parameters.AddWithValue("@pat_name", txtbName.Text);
@@ -67,6 +67,13 @@ namespace home1
                 MessageBox.Show("please provide details");
             }
             //SqlConnection con = new SqlConnection("Data Source=DESKTOP-D29UFPE;Initial Catalog=pataintdata;Integrated Security=True");
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            home frm = new home();
+            frm.Show();
+            this.Hide();
         }
     }
 }

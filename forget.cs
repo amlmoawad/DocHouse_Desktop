@@ -20,7 +20,7 @@ namespace home1
 
         string choice;
         string item;
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
 
         private void forget_Load(object sender, EventArgs e)
         {

@@ -13,7 +13,7 @@ namespace home1
 {
     public partial class Patient : Form
     {
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
         string query = "";
 
 
@@ -47,8 +47,9 @@ namespace home1
         private void kryptonButton1_Click(object sender, EventArgs e)
         {
             con.Open();
-            query = "select * appointment";
+            query = "select appointment_id, doctor_name, specilization, patient_date,cost from appointment where patient_email=@l";
             SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@l", login.login_email);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);
@@ -66,8 +67,9 @@ namespace home1
         {
 
             con.Open();
-            query = "select * report";
+            query = "select * from report where email =@e";
             SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@e", login.login_email);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);

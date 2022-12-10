@@ -39,6 +39,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -49,10 +50,9 @@
             this.pictureBox2.BackColor = System.Drawing.SystemColors.Control;
             this.pictureBox2.BackgroundImage = global::home1.Properties.Resources.button;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(542, 296);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Location = new System.Drawing.Point(465, 240);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(146, 69);
+            this.pictureBox2.Size = new System.Drawing.Size(125, 56);
             this.pictureBox2.TabIndex = 94;
             this.pictureBox2.TabStop = false;
             // 
@@ -66,10 +66,9 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Times New Roman", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(560, 310);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(480, 252);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 41);
+            this.button2.Size = new System.Drawing.Size(98, 33);
             this.button2.TabIndex = 95;
             this.button2.Text = "Login";
             this.button2.UseVisualStyleBackColor = false;
@@ -78,19 +77,17 @@
             // passBox
             // 
             this.passBox.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passBox.Location = new System.Drawing.Point(429, 240);
-            this.passBox.Margin = new System.Windows.Forms.Padding(4);
+            this.passBox.Location = new System.Drawing.Point(368, 195);
             this.passBox.Name = "passBox";
-            this.passBox.Size = new System.Drawing.Size(245, 26);
+            this.passBox.Size = new System.Drawing.Size(211, 22);
             this.passBox.TabIndex = 96;
             // 
             // emailBox
             // 
             this.emailBox.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emailBox.Location = new System.Drawing.Point(429, 171);
-            this.emailBox.Margin = new System.Windows.Forms.Padding(4);
+            this.emailBox.Location = new System.Drawing.Point(368, 139);
             this.emailBox.Name = "emailBox";
-            this.emailBox.Size = new System.Drawing.Size(245, 26);
+            this.emailBox.Size = new System.Drawing.Size(211, 22);
             this.emailBox.TabIndex = 97;
             // 
             // label4
@@ -99,10 +96,9 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(334, 171);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(286, 139);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 27);
+            this.label4.Size = new System.Drawing.Size(51, 21);
             this.label4.TabIndex = 98;
             this.label4.Text = "Email";
             // 
@@ -112,19 +108,19 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(298, 237);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(255, 193);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(104, 27);
+            this.label10.Size = new System.Drawing.Size(84, 21);
             this.label10.TabIndex = 99;
             this.label10.Text = "Password";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(481, 62);
+            this.comboBox1.Location = new System.Drawing.Point(412, 50);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
+            this.comboBox1.Size = new System.Drawing.Size(104, 21);
             this.comboBox1.TabIndex = 100;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -134,10 +130,9 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(334, 59);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(286, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 27);
+            this.label1.Size = new System.Drawing.Size(88, 21);
             this.label1.TabIndex = 101;
             this.label1.Text = "User Type";
             // 
@@ -147,9 +142,8 @@
             this.pictureBox3.BackgroundImage = global::home1.Properties.Resources.icon1;
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Location = new System.Drawing.Point(1, 0);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(93, 37);
+            this.pictureBox3.Size = new System.Drawing.Size(93, 33);
             this.pictureBox3.TabIndex = 102;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
@@ -164,10 +158,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(382, 311);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(327, 253);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 41);
+            this.button1.Size = new System.Drawing.Size(98, 33);
             this.button1.TabIndex = 103;
             this.button1.Text = "Forget password?";
             this.button1.UseVisualStyleBackColor = false;
@@ -178,19 +171,27 @@
             this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
             this.pictureBox1.BackgroundImage = global::home1.Properties.Resources.button;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(364, 296);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(312, 240);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(146, 69);
+            this.pictureBox1.Size = new System.Drawing.Size(125, 56);
             this.pictureBox1.TabIndex = 104;
             this.pictureBox1.TabStop = false;
             // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(392, 196);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(104, 21);
+            this.comboBox2.TabIndex = 105;
+            // 
             // login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::home1.Properties.Resources.photo_٢٠٢٢_١٢_٠٣_١٩_١٦_٤٥;
-            this.ClientSize = new System.Drawing.Size(1036, 507);
+            this.ClientSize = new System.Drawing.Size(888, 412);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
@@ -202,6 +203,8 @@
             this.Controls.Add(this.passBox);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.comboBox2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.login_Load);
@@ -226,5 +229,6 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }

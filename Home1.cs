@@ -25,15 +25,15 @@ namespace home1
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            home frm2 = new home();
+            contactUsscs frm2 = new contactUsscs();
             frm2.Show();
             this.Hide();
         }
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            //about frm2 = new about();
-            //frm2.Show();
+            About_Us frm2 = new About_Us();
+            frm2.Show();
             this.Hide();
         }
 
@@ -46,15 +46,15 @@ namespace home1
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            //register frm2 = new register();
-            //frm2.Show();
+            register frm2 = new register();
+            frm2.Show();
             this.Hide();
         }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            //login frm2 = new login();
-            //frm2.Show();
+            login frm2 = new login();
+            frm2.Show();
             this.Hide();
         }
     }

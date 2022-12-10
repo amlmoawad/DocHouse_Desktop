@@ -8,17 +8,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace home1
 {
     public partial class login : Form
     {
+        public static string id = "";
+        public static string login_email = "";
         public login()
         {
             InitializeComponent();
         }
         string choice;
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
         private void login_Load(object sender, EventArgs e)
         {
             comboBox1.Text = "Choose your role";
@@ -59,6 +62,7 @@ namespace home1
 
                 if (dtable.Rows.Count > 0)
                 {
+                    login_email = emailBox.Text;
                     MessageBox.Show("Welcome");
                     home frm = new home();
                     frm.Show();
@@ -76,9 +80,10 @@ namespace home1
             {
                 if (email == "admin@gmail.com" && pass == "admin")
                 {
-                    //admin frm = new admin();
-                    //frm.show();
-                    //this.hide();
+                    login_email = emailBox.Text;
+                    Admin frm2 = new Admin();
+                    frm2.Show();
+                    this.Hide();
                 }
                 else
                 {
@@ -95,7 +100,7 @@ namespace home1
 
             else if (choice == "Doctor")
             {
-                string query = "SELECT * from doctors WHERE s_email = '" + emailBox.Text + "' AND s_pass = '" + passBox.Text + "'";
+                string query = "SELECT * from doctors WHERE doc_email = '" + emailBox.Text + "' AND pass = '" + passBox.Text + "'";
                 SqlDataAdapter sdm = new SqlDataAdapter(query, con);
 
                 DataTable dtable = new DataTable();
@@ -103,10 +108,20 @@ namespace home1
 
                 if (dtable.Rows.Count > 0)
                 {
+                    SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand("select doc_id from doctors where doc_email = '" + emailBox.Text + "' AND pass = '" + passBox.Text + "'", con);
+                    SqlDataAdapter adapt = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    adapt.Fill(dt);
+                    comboBox2.DataSource = dt;
+                    comboBox2.DisplayMember = "doc_id";
+                    con.Close();
+                    id = comboBox2.Text;
                     MessageBox.Show("Welcome");
-                    //doctor frm = new home();
-                    //frm.Show();
-                    //this.Hide();
+                    doctor frm = new doctor();
+                    frm.Show();
+                    this.Hide();
                 }
                 else
                 {
@@ -128,10 +143,20 @@ namespace home1
 
                 if (dtable.Rows.Count > 0)
                 {
+                    SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand("select s_id from lab_scientist where s_email = '" + emailBox.Text + "' AND s_pass = '" + passBox.Text + "'", con);
+                    SqlDataAdapter adapt = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    adapt.Fill(dt);
+                    comboBox2.DataSource = dt;
+                    comboBox2.DisplayMember = "s_id";
+                    con.Close();
+                    id = comboBox2.Text;
                     MessageBox.Show("Welcome");
-                    //labScientist frm = new labScientist();
-                    //frm.Show();
-                    //this.Hide();
+                    Lab frm = new Lab();
+                    frm.Show();
+                    this.Hide();
                 }
                 else
                 {
@@ -144,7 +169,7 @@ namespace home1
             else if (choice == "Pharmacist")
             {
                 con.Open();
-                string query = "SELECT * from pharmacist WHERE s_email = '" + emailBox.Text + "' AND s_pass = '" + passBox.Text + "'";
+                string query = "SELECT * from pharmacist WHERE p_email = '" + emailBox.Text + "' AND p_pass = '" + passBox.Text + "'";
                 SqlDataAdapter sdm = new SqlDataAdapter(query, con);
 
                 DataTable dtable = new DataTable();
@@ -152,10 +177,20 @@ namespace home1
 
                 if (dtable.Rows.Count > 0)
                 {
+                    SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand("select p_id from pharmacist where p_email = '" + emailBox.Text + "' AND p_pass = '" + passBox.Text + "'", con);
+                    SqlDataAdapter adapt = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    adapt.Fill(dt);
+                    comboBox2.DataSource = dt;
+                    comboBox2.DisplayMember = "p_id";
+                    con.Close();
+                    id = comboBox2.Text;
                     MessageBox.Show("Welcome");
-                    //pharmacist frm = new pharmacist();
-                    //frm.Show();
-                    //this.Hide();
+                    pharmacist frm = new pharmacist();
+                    frm.Show();
+                    this.Hide();
                 }
                 else
                 {
