@@ -16,7 +16,11 @@ namespace home1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new Chatting());
+=======
+            Application.Run(new home1());
+>>>>>>> 33ba7adee884ccd1112c8f2d9909cdec737a0fee
         }
     }
 }

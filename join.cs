@@ -62,7 +62,7 @@ namespace home1
             {
                 gender = "Female";
             }
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
             con.Open();
             SqlCommand cmd = new SqlCommand("insert into joinus(doc_name,doc_Specification,national_id,doc_email,doc_phone,doc_governorate,doc_city,doc_gender,doc_salary,doc_education,medicalid) values(@n,@s,@nid,@e,@p,@g,@c,@gen,@sal,@edu,@img)", con);
             cmd.Parameters.AddWithValue("@n", textBox1.Text);

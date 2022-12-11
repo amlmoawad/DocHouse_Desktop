@@ -127,5 +127,12 @@ namespace home1
             }
             messagetextBox.Text = "";
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            home frm = new home();
+            frm.Show();
+            this.Hide();
+        }
     }
 }

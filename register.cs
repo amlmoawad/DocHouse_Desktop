@@ -132,7 +132,7 @@ namespace home1
                 checkBox = "Female";
             }
             choice = comboBox1.SelectedItem.ToString();
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
             con.Open();
             SqlCommand cmd = new SqlCommand("insert into register values('" + fname.Text + "','" + lname.Text + "','" + email.Text + "','" + pass.Text + "','" + phone.Text + "','" + checkBox + "','" + (int)(age.Value) + "','" + choice + "','" + answerBox.Text + "')", con);
             int i = cmd.ExecuteNonQuery();

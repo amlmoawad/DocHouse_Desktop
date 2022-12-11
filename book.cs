@@ -22,7 +22,7 @@ namespace home1
         private void button7_Click_1(object sender, EventArgs e)
         {
             DocName = comboBox3.Text;
-            SqlConnection con1 = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+            SqlConnection con1 = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
             con1.Open();
             SqlCommand cmd1 = new SqlCommand("select doc_id from doctors where doc_name=@docname", con1);
             cmd1.Parameters.AddWithValue("@docname", DocName);
@@ -41,7 +41,7 @@ namespace home1
             {
                 gender = "Female";
             }
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
             con.Open();
             SqlCommand cmd = new SqlCommand("insert into appointment values(@f,@l,@e,@p,@g,@c,@gen,@a,@d,@h,@s,@dn,@di,@dc)", con);
             cmd.Parameters.AddWithValue("@f", textBox1.Text);
@@ -117,7 +117,7 @@ namespace home1
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             //comboBox3.Items.Clear();
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
             con.Open();
             SqlCommand cmd = new SqlCommand("select doc_name from doctors where doc_Specification=@specilization and doc_governorate=@governorate", con);
             cmd.Parameters.AddWithValue("@specilization", comboBox2.SelectedItem.ToString());
@@ -135,7 +135,7 @@ namespace home1
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
             DocName = comboBox3.Text;
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
             con.Open();
             SqlCommand cmd = new SqlCommand("select doc_salary from doctors where doc_name=@docname ", con);
             cmd.Parameters.AddWithValue("@docname", DocName);

@@ -26,28 +26,32 @@ namespace home1
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            //chat frm2 = new chat();
-            //frm2.Show();
+            Chatting frm2 = new Chatting();
+            frm2.Show();
             this.Hide();
         }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            //contact frm2 = new contact();
-            //frm2.Show();
+            contactUsscs frm2 = new contactUsscs();
+            frm2.Show();
             this.Hide();
         }
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            //about frm2 = new about();
-            //frm2.Show();
+            About_Us frm2 = new About_Us();
+            frm2.Show();
             this.Hide();
         }
 
         private void button5_Click_1(object sender, EventArgs e)
         {
-            //logout
+            login.login_email = null;
+            DoctorReport.appointment_email = null;
+            home1 frm2 = new home1();
+            frm2.Show();
+            this.Hide();
         }
 
         private void button2_Click_1(object sender, EventArgs e)
@@ -59,16 +63,28 @@ namespace home1
 
         private void button6_Click_1(object sender, EventArgs e)
         {
-            //medicine frm2 = new medicine();
-            //frm2.Show();
+            Book_Medicine frm2 = new Book_Medicine();
+            frm2.Show();
             this.Hide();
         }
 
         private void button7_Click_1(object sender, EventArgs e)
         {
-            //examination frm2 = new examination();
-            //frm2.Show();
+            Examination_Reservation frm2 = new Examination_Reservation();
+            frm2.Show();
             this.Hide();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Patient frm2 = new Patient();
+            frm2.Show();
+            this.Hide();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

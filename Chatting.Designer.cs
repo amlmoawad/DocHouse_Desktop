@@ -51,10 +51,10 @@
             // 
             // serverIptextBox
             // 
-            this.serverIptextBox.Location = new System.Drawing.Point(155, 53);
+            this.serverIptextBox.Location = new System.Drawing.Point(133, 71);
             this.serverIptextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.serverIptextBox.Name = "serverIptextBox";
-            this.serverIptextBox.Size = new System.Drawing.Size(169, 24);
+            this.serverIptextBox.Size = new System.Drawing.Size(145, 20);
             this.serverIptextBox.TabIndex = 4;
             // 
             // startButton
@@ -66,10 +66,10 @@
             this.startButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.startButton.Font = new System.Drawing.Font("Lucida Fax", 10.8F, System.Drawing.FontStyle.Bold);
             this.startButton.ForeColor = System.Drawing.Color.Black;
-            this.startButton.Location = new System.Drawing.Point(695, 53);
+            this.startButton.Location = new System.Drawing.Point(596, 65);
             this.startButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(99, 22);
+            this.startButton.Size = new System.Drawing.Size(98, 30);
             this.startButton.TabIndex = 87;
             this.startButton.Text = "START";
             this.startButton.UseVisualStyleBackColor = false;
@@ -81,9 +81,9 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(7, 22);
+            this.label1.Location = new System.Drawing.Point(6, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 25);
+            this.label1.Size = new System.Drawing.Size(64, 22);
             this.label1.TabIndex = 10;
             this.label1.Text = "Server";
             // 
@@ -93,9 +93,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(107, 55);
+            this.label2.Location = new System.Drawing.Point(92, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(26, 20);
+            this.label2.Size = new System.Drawing.Size(21, 16);
             this.label2.TabIndex = 11;
             this.label2.Text = "IP";
             // 
@@ -105,27 +105,27 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(362, 55);
+            this.label3.Location = new System.Drawing.Point(310, 73);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 19);
+            this.label3.Size = new System.Drawing.Size(45, 17);
             this.label3.TabIndex = 12;
             this.label3.Text = "PORT";
             // 
             // chattextBox
             // 
-            this.chattextBox.Location = new System.Drawing.Point(66, 170);
+            this.chattextBox.Location = new System.Drawing.Point(57, 174);
             this.chattextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chattextBox.Multiline = true;
             this.chattextBox.Name = "chattextBox";
-            this.chattextBox.Size = new System.Drawing.Size(743, 175);
+            this.chattextBox.Size = new System.Drawing.Size(637, 143);
             this.chattextBox.TabIndex = 15;
             // 
             // serverPorttextBox
             // 
-            this.serverPorttextBox.Location = new System.Drawing.Point(451, 53);
+            this.serverPorttextBox.Location = new System.Drawing.Point(387, 71);
             this.serverPorttextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.serverPorttextBox.Name = "serverPorttextBox";
-            this.serverPorttextBox.Size = new System.Drawing.Size(169, 24);
+            this.serverPorttextBox.Size = new System.Drawing.Size(145, 20);
             this.serverPorttextBox.TabIndex = 16;
             // 
             // label6
@@ -134,9 +134,9 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(13, 96);
+            this.label6.Location = new System.Drawing.Point(11, 106);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(71, 25);
+            this.label6.Size = new System.Drawing.Size(59, 22);
             this.label6.TabIndex = 17;
             this.label6.Text = "Client";
             // 
@@ -146,18 +146,18 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(107, 136);
+            this.label4.Location = new System.Drawing.Point(92, 138);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(26, 19);
+            this.label4.Size = new System.Drawing.Size(22, 17);
             this.label4.TabIndex = 18;
             this.label4.Text = "IP";
             // 
             // clientIptextBox
             // 
-            this.clientIptextBox.Location = new System.Drawing.Point(155, 130);
+            this.clientIptextBox.Location = new System.Drawing.Point(133, 134);
             this.clientIptextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.clientIptextBox.Name = "clientIptextBox";
-            this.clientIptextBox.Size = new System.Drawing.Size(169, 24);
+            this.clientIptextBox.Size = new System.Drawing.Size(145, 20);
             this.clientIptextBox.TabIndex = 19;
             // 
             // label5
@@ -166,18 +166,18 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(362, 136);
+            this.label5.Location = new System.Drawing.Point(310, 138);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 19);
+            this.label5.Size = new System.Drawing.Size(45, 17);
             this.label5.TabIndex = 20;
             this.label5.Text = "PORT";
             // 
             // clientPorttextBox
             // 
-            this.clientPorttextBox.Location = new System.Drawing.Point(451, 130);
+            this.clientPorttextBox.Location = new System.Drawing.Point(387, 134);
             this.clientPorttextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.clientPorttextBox.Name = "clientPorttextBox";
-            this.clientPorttextBox.Size = new System.Drawing.Size(169, 24);
+            this.clientPorttextBox.Size = new System.Drawing.Size(145, 20);
             this.clientPorttextBox.TabIndex = 21;
             // 
             // connectbutton
@@ -188,10 +188,10 @@
             this.connectbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.connectbutton.Font = new System.Drawing.Font("Lucida Fax", 10.2F, System.Drawing.FontStyle.Bold);
             this.connectbutton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.connectbutton.Location = new System.Drawing.Point(695, 129);
+            this.connectbutton.Location = new System.Drawing.Point(596, 126);
             this.connectbutton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.connectbutton.Name = "connectbutton";
-            this.connectbutton.Size = new System.Drawing.Size(99, 25);
+            this.connectbutton.Size = new System.Drawing.Size(98, 34);
             this.connectbutton.TabIndex = 22;
             this.connectbutton.Text = "CONNECT";
             this.connectbutton.UseVisualStyleBackColor = false;
@@ -199,11 +199,11 @@
             // 
             // messagetextBox
             // 
-            this.messagetextBox.Location = new System.Drawing.Point(66, 365);
+            this.messagetextBox.Location = new System.Drawing.Point(57, 330);
             this.messagetextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.messagetextBox.Multiline = true;
             this.messagetextBox.Name = "messagetextBox";
-            this.messagetextBox.Size = new System.Drawing.Size(743, 46);
+            this.messagetextBox.Size = new System.Drawing.Size(637, 38);
             this.messagetextBox.TabIndex = 23;
             // 
             // sendbutton
@@ -214,10 +214,10 @@
             this.sendbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sendbutton.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Bold);
             this.sendbutton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.sendbutton.Location = new System.Drawing.Point(845, 365);
+            this.sendbutton.Location = new System.Drawing.Point(724, 330);
             this.sendbutton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sendbutton.Name = "sendbutton";
-            this.sendbutton.Size = new System.Drawing.Size(145, 45);
+            this.sendbutton.Size = new System.Drawing.Size(124, 37);
             this.sendbutton.TabIndex = 24;
             this.sendbutton.Text = "SEND";
             this.sendbutton.UseVisualStyleBackColor = false;
@@ -234,21 +234,22 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Image = global::home1.Properties.Resources.icon1;
-            this.pictureBox1.Location = new System.Drawing.Point(975, 12);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(0, -1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(90, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(103, 35);
             this.pictureBox1.TabIndex = 88;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Chatting
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::home1.Properties.Resources.back2;
-            this.ClientSize = new System.Drawing.Size(1078, 429);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(924, 379);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.sendbutton);
             this.Controls.Add(this.messagetextBox);

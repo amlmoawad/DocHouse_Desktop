@@ -32,7 +32,7 @@ namespace home1
             comboBox1.Items.Add("Gharbia");
             comboBox1.Items.Add("Cairo");
 
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
             con.Open();
             SqlCommand cmd = new SqlCommand("select pharmacy_name from pharmacist", con);
             SqlDataAdapter adapt = new SqlDataAdapter(cmd);
@@ -100,7 +100,7 @@ namespace home1
 
 
             PharmacyName = comboBox2.Text;
-            SqlConnection con1 = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+            SqlConnection con1 = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
             con1.Open();
             SqlCommand cmd1 = new SqlCommand("select p_id from pharmacist where pharmacy_name=@PharmacyName", con1);
             cmd1.Parameters.AddWithValue("@PharmacyName", PharmacyName);
@@ -111,7 +111,7 @@ namespace home1
             comboBox4.DisplayMember = "p_id";
             con1.Close();
            
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-K745D94;Initial Catalog=DocHouse;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Server=localhost;Database=DocHouse_desktop;Trusted_Connection=True;");
             con.Open();
             SqlCommand cmd = new SqlCommand("insert into medicine_reservation values(@f,@l,@e,@p,@g,@c,@pn,@rm,@pi)", con);
             cmd.Parameters.AddWithValue("@f", textBox1.Text);
